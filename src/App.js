@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {Component} from 'react'
 import PokemonPage from './components/PokemonPage'
 import './App.css'
 
-const App = () => (
+class App extends Component {
+
+ 
+
+render(){
+  return(
   <div className="App">
-    <PokemonPage />
+    <PokemonPage  />
   </div>
-)
+  )
+  }
+  }
 
 export default App
